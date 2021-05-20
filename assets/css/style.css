@@ -1,15 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,500&display=swap|Chela+One&display=swap'
+
+/*---------------------------Colors */
 
 .bg-color-name-title {
-    background-color: #e60d0d;
+    background-color: #b4a9a9;
 }
- 
+  
+/*-----------------------------Headings*/
+
 header {
     margin: 0;
 }
 
+.heading {
+    margin: 50px;
+}
+   
 .logo {
-    background: url("../ logo.jpg");
+    background: url("../images/Morning Inspection.jpg");
     background-position: left;
     background: no-repeat;
     background: cover;
@@ -17,4 +25,17 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Texturina", "Chela+One";
+    font-weight: 100px;
+    font-size: 48px;
+    margin-top: 50px;
+    color: black;
+    font-family: "Texturina";
+    font-weight: 200;
+    font-size: 28px;
+    margin-bottom: 90px;
+    color: black;
 }
